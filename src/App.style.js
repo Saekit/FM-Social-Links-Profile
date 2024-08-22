@@ -22,6 +22,11 @@ export const ProfileContainer = styled.div`
   padding: 40px;
 `;
 
+export const ProfileBioContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const ProfileAvatar = styled.img`
   width: 25%;
   height: 25%;

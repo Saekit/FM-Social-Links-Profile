@@ -3,6 +3,7 @@ import {
   ButtonContainer,
   ProfileAvatar,
   ProfileBio,
+  ProfileBioContainer,
   ProfileContainer,
   ProfileLocation,
   ProfileName,
@@ -22,10 +23,12 @@ function App() {
   return (
     <Body>
       <ProfileContainer>
-        <ProfileAvatar src={avatarJessica} alt="Jessica's Avatar" />
-        <ProfileName>Jessica Randall</ProfileName>
-        <ProfileLocation>London, United Kingdom</ProfileLocation>
-        <ProfileBio>"Front-end developer and avid reader."</ProfileBio>
+        <ProfileBioContainer>
+          <ProfileAvatar src={avatarJessica} alt="Jessica's Avatar" />
+          <ProfileName>Jessica Randall</ProfileName>
+          <ProfileLocation>London, United Kingdom</ProfileLocation>
+          <ProfileBio>"Front-end developer and avid reader."</ProfileBio>
+        </ProfileBioContainer>
         <ButtonContainer>
           {socialAccounts.map((social) => (
             <SocialButton name={social} />
