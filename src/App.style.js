@@ -14,7 +14,7 @@ export const Body = styled.div`
 export const ProfileContainer = styled.div`
   background-color: hsl(0, 0%, 12%);
   border-radius: 15px;
-  width: 360px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,18 +25,18 @@ export const ProfileContainer = styled.div`
 export const ProfileBioContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 export const ProfileAvatar = styled.img`
-  width: 25%;
-  height: 25%;
+  width: 30%;
   border-radius: 100%;
 `;
 
 export const ButtonContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
   justify-content: space-evenly;
   width: 100%;
   margin-top: 20px;
@@ -45,6 +45,7 @@ export const ButtonContainer = styled.div`
 export const ProfileName = styled.h1`
   color: white;
   margin-bottom: 6px;
+  font-weight: 400;
 `;
 
 export const ProfileLocation = styled.h2`
@@ -55,5 +56,5 @@ export const ProfileLocation = styled.h2`
 
 export const ProfileBio = styled.p`
   color: white;
-  font-weight: 200;
+  font-weight: 300;
 `;

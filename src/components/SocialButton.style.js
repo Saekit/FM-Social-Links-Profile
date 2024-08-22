@@ -4,7 +4,7 @@ export const ProfileButton = styled.button`
   width: 100%;
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
   padding: 16px;
   border: none;
